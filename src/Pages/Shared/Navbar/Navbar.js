@@ -8,7 +8,6 @@ const Navbar = () => {
         <li><Link to="/">Home</Link></li>
         <li><Link to="/dashboard">Dashboard</Link></li>
         <li><Link to="/blog">Blog</Link></li>
-        <li><button className='btn btn-primary text-white rounded-full'>Logout</button></li>
         <li><Link className='btn btn-primary text-white rounded-full' to="/login">Login</Link></li>
 
     </React.Fragment>
@@ -23,7 +22,7 @@ const Navbar = () => {
                         {menuItems}
                     </ul>
                 </div>
-                <Link to="/" className="btn btn-ghost font-bold text-4xl text-sky-900 normal-case">Laptop Genics</Link>
+                <Link to="/" className="btn btn-ghost font-bold text-4xl text-sky-900 normal-case">Cafe Management System</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal p-0">
